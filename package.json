@@ -1,0 +1,24 @@
+{
+  "name": "d1-auth-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "serve": "wrangler dev",
+    "dev": "wrangler dev",
+    "test": "tsc && vitest"
+  },
+  "dependencies": {
+    "chanfana": "^3.0.0",
+    "hono": "^4.11.5",
+    "workers-qb": "^1.12.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.12.6",
+    "@cloudflare/workers-types": "^4.20260124.0",
+    "typescript": "^5.9.3",
+    "vitest": "~3.2.0",
+    "wrangler": "^4.60.0"
+  }
+}
